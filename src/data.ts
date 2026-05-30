@@ -1,13 +1,22 @@
 import { Project, Service, Membership } from './types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_building_facade_1780115053446.png';
-export const ABOUT_IMAGE = '/src/assets/images/gta_urban_skyline_1780115072505.png';
-export const FEATURED_PROJECT_IMAGE = '/src/assets/images/featured_school_facade_1780115094786.png';
-export const COMMERCIAL_PROJECT_IMAGE = '/src/assets/images/commercial_warehouse_1780117262357.png';
-export const DESIGN_PROJECT_IMAGE = '/src/assets/images/timber_deck_design_1780117281874.png';
-export const BRIDGES_PROJECT_IMAGE = '/src/assets/images/ravine_footbridge_1780117298044.png';
-export const RESIDENTIAL_PROJECT_IMAGE = '/src/assets/images/lakeside_villa_1780117313798.png';
-export const RECREATION_PROJECT_IMAGE = '/src/assets/images/municipal_swim_center_1780117332804.png';
+import heroImg from './assets/images/hero_building_facade_1780115053446.png';
+import aboutImg from './assets/images/gta_urban_skyline_1780115072505.png';
+import featuredProjImg from './assets/images/featured_school_facade_1780115094786.png';
+import commercialProjImg from './assets/images/commercial_warehouse_1780117262357.png';
+import designProjImg from './assets/images/timber_deck_design_1780117281874.png';
+import bridgesProjImg from './assets/images/ravine_footbridge_1780117298044.png';
+import residentialProjImg from './assets/images/lakeside_villa_1780117313798.png';
+import recreationProjImg from './assets/images/municipal_swim_center_1780117332804.png';
+
+export const HERO_IMAGE = heroImg;
+export const ABOUT_IMAGE = aboutImg;
+export const FEATURED_PROJECT_IMAGE = featuredProjImg;
+export const COMMERCIAL_PROJECT_IMAGE = commercialProjImg;
+export const DESIGN_PROJECT_IMAGE = designProjImg;
+export const BRIDGES_PROJECT_IMAGE = bridgesProjImg;
+export const RESIDENTIAL_PROJECT_IMAGE = residentialProjImg;
+export const RECREATION_PROJECT_IMAGE = recreationProjImg;
 
 export const MEMBERSHIPS: Membership[] = [
   {
@@ -108,7 +117,7 @@ export const PROJECTS: Project[] = [
       footprint: '18,500 sq. ft. building envelope',
       safetyCompliance: 'CSA S304.1 (Design of Masonry Structures)'
     },
-    imageUrl: '/src/assets/images/hero_building_facade_1780115053446.png'
+    imageUrl: HERO_IMAGE
   },
   {
     id: 'red-creek-storage',
